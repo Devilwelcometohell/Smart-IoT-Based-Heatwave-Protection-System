@@ -206,7 +206,7 @@ Third-party libraries and dependencies used in this project follow their respect
 
 | Name          | Role                              | Contact Information                                         | GitHub Profile                  |
 | ------------- | --------------------------------- | ----------------------------------------------------------- | ------------------------------- |
-| Devang Shukla | Project Lead & Embedded Developer | [devangshukla218@gmail.com](mailto:devangshukla@example.com) |https://github.com/devangshukla |
+| Devang Shukla | Project Lead & Embedded Developer | [devangshukla218@gmail.com](mailto:devangshukla@example.com) |[https://github.com/devangshukla](https://github.com/Devilwelcometohell) |
 | Harsh Sharma | IoT & Cloud Developer | [member2@example.com](mailto:member2@example.com) | https://github.com/member2      |
 | Divyanshi Sharma | Hardware & PCB Design| [member3@example.com](mailto:member3@example.com) | https://github.com/member3      |
 | Jatin Verma | Software & Cloud Developer | [member3@example.com](mailto:member3@example.com) | https://github.com/member3      |
