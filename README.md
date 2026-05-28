@@ -145,6 +145,7 @@ G -- No --> N[Continue Real-Time Monitoring]
 ## Display and Alert Components
 
 * OLED Display
+* SOS on  Mobile
 * Buzzer
 * Push Button
 
@@ -205,6 +206,7 @@ Third-party libraries and dependencies used in this project follow their respect
 
 | Name          | Role                              | Contact Information                                         | GitHub Profile                  |
 | ------------- | --------------------------------- | ----------------------------------------------------------- | ------------------------------- |
-| Devang Shukla | Project Lead & Embedded Developer | [devangshukla@example.com](mailto:devangshukla@example.com) | https://github.com/devangshukla |
-| Team Member 2 | IoT & Cloud Developer             | [member2@example.com](mailto:member2@example.com)           | https://github.com/member2      |
-| Team Member 3 | Hardware & PCB Design             | [member3@example.com](mailto:member3@example.com)           | https://github.com/member3      |
+| Devang Shukla | Project Lead & Embedded Developer | [devangshukla218@gmail.com](mailto:devangshukla@example.com) |https://github.com/devangshukla |
+| Harsh Sharma | IoT & Cloud Developer | [member2@example.com](mailto:member2@example.com) | https://github.com/member2      |
+| Divyanshi Sharma | Hardware & PCB Design| [member3@example.com](mailto:member3@example.com) | https://github.com/member3      |
+| Jatin Verma | Software & Cloud Developer | [member3@example.com](mailto:member3@example.com) | https://github.com/member3      |
