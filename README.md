@@ -50,6 +50,8 @@ I --> M[Emergency Alert Notification]
 G -- No --> N[Continue Real-Time Monitoring]
 ```
 
+---
+
 ## Data Flow Architecture
 
 ```mermaid
@@ -89,8 +91,10 @@ L --> Q[Emergency Alert]
 
 Q --> R[User / Guardian Notification]
 ```
-## Self-Healing Workflow
 
+---
+
+## Self-Healing Workflow
 
 ```mermaid
 flowchart TD
@@ -138,6 +142,8 @@ Q --> R[Notify Guardian / Emergency Contact]
 R --> E
 ```
 
+---
+
 ## AI Routing Decision Process
 
 ```mermaid
@@ -162,6 +168,7 @@ H -- No --> D
 
 H -- Yes --> I[Emergency Notification]
 ```
+
 ---
 
 # 3. Technologies Used
@@ -321,4 +328,4 @@ Third-party libraries and dependencies used in this project follow their respect
 | Devang Shukla | Project Lead & Embedded Developer | [devangshukla218@gmail.com](mailto:devangshukla@example.com) |[https://github.com/devangshukla](https://github.com/Devilwelcometohell) |
 | Harsh Sharma | IoT & Cloud Developer | [harsh.sharmaec27@gmail.com](mailto:member2@example.com) | [https://github.com/harshsharma](https://github.com/harshsharmaec27-crypto)|
 | Divyanshi Sharma | Hardware & PCB Design| [divyanshivashisth96@gmail.com](mailto:divyanshivashisth96@gmail.com) | [https://github.com/divyanshisharma ](https://github.com/Divyaanshisharma77)     |
-| Jatin Verma | Software & Cloud Developer | [member3@example.com](mailto:member3@example.com) | [https://github.com/jatinverma ](https://github.com/jatinverma1632004)     |
+| Jatin Verma | Software & Cloud Developer | [jatinverma1632004@gmail.com](mailto:jatinverma1632004@gmail.com) | [https://github.com/jatinverma ](https://github.com/jatinverma1632004)     |
