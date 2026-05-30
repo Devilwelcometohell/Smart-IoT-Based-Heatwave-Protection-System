@@ -50,7 +50,7 @@ I --> M[Emergency Alert Notification]
 G -- No --> N[Continue Real-Time Monitoring]
 ```
 
-##Data Flow Architecture
+## Data Flow Architecture
 
 ```mermaid
 flowchart LR
