@@ -52,6 +52,7 @@ G -- No --> N[Continue Real-Time Monitoring]
 
 ##Data Flow Architecture
 
+```mermaid
 flowchart LR
 
 A[User Wearing Smart Health Band]
@@ -87,6 +88,7 @@ L --> P[Hydration Reminder]
 L --> Q[Emergency Alert]
 
 Q --> R[User / Guardian Notification]
+```
 
 ---
 
