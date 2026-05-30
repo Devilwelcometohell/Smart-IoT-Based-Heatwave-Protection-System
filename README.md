@@ -138,6 +138,30 @@ Q --> R[Notify Guardian / Emergency Contact]
 R --> E
 ```
 
+## AI Routing Decision Process
+
+```mermaid
+flowchart TD
+
+A[Sensor Data Collection]
+--> B[AI Heat Stress Analysis]
+
+B --> C{Risk Level}
+
+C -- Safe --> D[Continue Monitoring]
+
+C -- Warning --> E[Send Hydration Alert]
+
+C -- High Risk --> F[Activate Neck Cooling]
+
+F --> G[Recheck Health Status]
+
+G --> H{Critical Condition?}
+
+H -- No --> D
+
+H -- Yes --> I[Emergency Notification]
+```
 ---
 
 # 3. Technologies Used
