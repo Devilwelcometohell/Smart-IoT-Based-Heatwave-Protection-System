@@ -320,5 +320,5 @@ Third-party libraries and dependencies used in this project follow their respect
 | ------------- | --------------------------------- | ----------------------------------------------------------- | ------------------------------- |
 | Devang Shukla | Project Lead & Embedded Developer | [devangshukla218@gmail.com](mailto:devangshukla@example.com) |[https://github.com/devangshukla](https://github.com/Devilwelcometohell) |
 | Harsh Sharma | IoT & Cloud Developer | [harsh.sharmaec27@gmail.com](mailto:member2@example.com) | [https://github.com/harshsharma](https://github.com/harshsharmaec27-crypto)|
-| Divyanshi Sharma | Hardware & PCB Design| [member3@example.com](mailto:member3@example.com) | https://github.com/member3      |
-| Jatin Verma | Software & Cloud Developer | [member3@example.com](mailto:member3@example.com) | [https://github.com/member3 ](https://github.com/jatinverma1632004)     |
+| Divyanshi Sharma | Hardware & PCB Design| [divyanshivashisth96@gmail.com](mailto:divyanshivashisth96@gmail.com) | [https://github.com/divyanshisharma ](https://github.com/Divyaanshisharma77)     |
+| Jatin Verma | Software & Cloud Developer | [member3@example.com](mailto:member3@example.com) | [https://github.com/jatinverma ](https://github.com/jatinverma1632004)     |
