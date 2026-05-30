@@ -50,6 +50,44 @@ I --> M[Emergency Alert Notification]
 G -- No --> N[Continue Real-Time Monitoring]
 ```
 
+##Data Flow Architecture
+
+flowchart LR
+
+A[User Wearing Smart Health Band]
+
+A --> B[MAX30102<br>Heart Rate & SpO2]
+A --> C[DS18B20<br>Body Temperature]
+A --> D[DHT22<br>Temperature & Humidity]
+A --> E[MPU6050<br>Motion & Activity]
+
+B --> F[ESP32 / EFR32BG22]
+C --> F
+D --> F
+E --> F
+
+F --> G[BLE Communication]
+
+G --> H[Mobile App / Cloud Dashboard]
+
+H --> I[Heat Stress Analysis Engine]
+
+I --> J{Heat Stress Risk?}
+
+J -- Safe --> K[Continue Monitoring]
+
+J -- Warning / Danger --> L[ESP32 Cooling Controller]
+
+L --> M[TEC1-12706 Peltier Module]
+L --> N[Cooling Fan]
+L --> O[Neck Cooling Plate]
+
+L --> P[Hydration Reminder]
+
+L --> Q[Emergency Alert]
+
+Q --> R[User / Guardian Notification]
+
 ---
 
 # 3. Technologies Used
