@@ -89,6 +89,54 @@ L --> Q[Emergency Alert]
 
 Q --> R[User / Guardian Notification]
 ```
+## Self-Healing Workflow
+
+
+```mermaid
+flowchart TD
+
+A[Start Monitoring]
+
+A --> B[Collect Sensor Data]
+
+B --> C[Analyze Health Parameters]
+
+C --> D{Body Temperature, Heart Rate or SpO2 Abnormal?}
+
+D -- No --> E[Continue Monitoring]
+
+D -- Yes --> F[Generate Heat Stress Warning]
+
+F --> G[Activate Smart Cooling Gadget]
+
+G --> H[Start Peltier Cooling System]
+
+H --> I[Monitor User Response]
+
+I --> J{Health Parameters Improved?}
+
+J -- Yes --> K[Reduce Cooling Level]
+
+K --> E
+
+J -- No --> L[Increase Cooling Intensity]
+
+L --> M[Send Hydration Reminder]
+
+M --> N[Re-evaluate Health Status]
+
+N --> O{Critical Condition Detected?}
+
+O -- No --> I
+
+O -- Yes --> P[Send Emergency Alert]
+
+P --> Q[Share Location & Health Data]
+
+Q --> R[Notify Guardian / Emergency Contact]
+
+R --> E
+```
 
 ---
 
